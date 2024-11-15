@@ -19,7 +19,7 @@ const Carousel = ({ autoPlayInterval = 8000 }) => {
       title: "Oh! You need my Resume? Sure.",
       description: "Download My CV",
       buttonLink:
-        "https://drive.google.com/file/d/1WenK38RaGuVY8G3SgPhhmH87AJBM-E58/view?usp=sharing",
+        "https://drive.google.com/file/d/166ZyPpKNYMyU8IAAV14BBytQIjAdd2sp/view?usp=sharing",
       heading: "I’m a Software Engineer and designer.",
     },
     {
