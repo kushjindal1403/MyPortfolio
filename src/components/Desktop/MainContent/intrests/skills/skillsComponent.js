@@ -30,6 +30,14 @@ const SkillCard = ({ title, skills }) => {
 const Skills = () => {
   const skillData = [
     {
+      title: "Operating Systems",
+      skills: [
+        { name: "Windows", progress: 65 },
+        { name: "macOS", progress: 60 },
+        { name: "Ubuntu", progress: 55 },
+      ],
+    },
+    {
       title: "Frontend Development",
       skills: [
         { name: "ReactJS", progress: 75 },
@@ -91,14 +99,6 @@ const Skills = () => {
       ],
     },
     {
-      title: "Operating Systems",
-      skills: [
-        { name: "Windows", progress: 65 },
-        { name: "macOS", progress: 60 },
-        { name: "Ubuntu", progress: 55 },
-      ],
-    },
-    {
       title: "DevOps Tools",
       skills: [
         { name: "GitHub", progress: 70 },
@@ -110,16 +110,6 @@ const Skills = () => {
         { name: "Prettier", progress: 70 },
         { name: "Jenkins", progress: 65 },
         { name: "Docker", progress: 60 },
-      ],
-    },
-    {
-      title: "Others",
-      skills: [
-        { name: "Amazon AWS", progress: 55 },
-        { name: "AI/ML", progress: 50 },
-        { name: "Google Search", progress: 70 },
-        { name: "RESTful APIs", progress: 65 },
-        { name: "Microservices Architecture", progress: 60 },
       ],
     },
   ];

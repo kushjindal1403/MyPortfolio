@@ -12,7 +12,7 @@ const Carousel = ({ autoPlayInterval = 8000 }) => {
       title: "WELCOME TO MY PORTFOLIO!",
       description: "",
       buttonLink: "",
-      heading: "Hey! My name is KUSH !",
+      heading: "Hey! My name is KUSH !!",
     },
     {
       image: Carousel2,
@@ -20,20 +20,21 @@ const Carousel = ({ autoPlayInterval = 8000 }) => {
       description: "Download My CV",
       buttonLink:
         "https://drive.google.com/file/d/166ZyPpKNYMyU8IAAV14BBytQIjAdd2sp/view?usp=sharing",
-      heading: "I’m a Software Engineer and designer.",
+      heading: "I’m a Software Engineer and designer..",
     },
     {
       image: Carousel3,
       title: "Impressed ? Let's Connect!",
       description: "Contact ME",
       buttonLink: "",
-      heading: "Let’s work together to create something amazing.",
+      heading: "Let’s work together to create something amazing..",
     },
   ];
 
   // Typing Effect Hook
   const useTypingEffect = (text, speed = 200) => {
     const [displayedText, setDisplayedText] = useState("");
+    console.log("display", displayedText);
 
     useEffect(() => {
       setDisplayedText(""); // Reset displayedText on new text
@@ -41,7 +42,7 @@ const Carousel = ({ autoPlayInterval = 8000 }) => {
       const interval = setInterval(() => {
         setDisplayedText((prev) => prev + text[index]);
         index++;
-        if (index === text.length) clearInterval(interval);
+        if (index === text.length -1 ) clearInterval(interval);
       }, speed);
 
       return () => clearInterval(interval);
@@ -49,6 +50,7 @@ const Carousel = ({ autoPlayInterval = 8000 }) => {
 
     return displayedText;
   };
+
 
   useEffect(() => {
     const interval = setInterval(() => {
