@@ -12,7 +12,7 @@ const Carousel = ({ autoPlayInterval = 8000 }) => {
       title: "WELCOME TO MY PORTFOLIO!",
       description: "",
       buttonLink: "",
-      heading: "Hey! My name is KUSH !!",
+      heading: "Hey! My name is KUSH ..",
     },
     {
       image: Carousel2,
@@ -27,7 +27,7 @@ const Carousel = ({ autoPlayInterval = 8000 }) => {
       title: "Impressed ? Let's Connect!",
       description: "Contact ME",
       buttonLink: "",
-      heading: "Let’s work together to create something amazing..",
+      heading: "Let’s work together to create something amazing!!",
     },
   ];
 
