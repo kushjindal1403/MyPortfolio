@@ -1,0 +1,60 @@
+.sidebar-name {
+    color: aliceblue;
+    font-style: oblique;
+}
+
+.sidebar-image {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 200px;
+    border-radius: 80%;
+}
+
+.mail-link {
+    color: aliceblue;
+    padding: 20px;
+}
+
+.mail-link:hover {
+    background-image: linear-gradient(to right,
+            rgba(255, 0, 0, 1),
+            rgba(255, 0, 180, 1),
+            rgba(0, 100, 200, 1));
+}
+
+.sidebar-container {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: 100vh;  
+    border-radius: 30px;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.sidebar-list div {
+    padding-bottom: 15px;
+}
+
+.sidebar-list a {
+    color: aliceblue;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+    font-size: larger;
+}
+
+.sidebar-list a:hover {
+    color: #007bff;
+    transform: scale(1.1);
+}
+
+.social-icons div img {
+    margin-top: 15px;
+    width: 35px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.social-icons div img:hover {
+    transform: rotate(360deg);
+    filter: brightness(1.2);
+}

@@ -1,0 +1,21 @@
+.about-me h3{
+    color: antiquewhite;
+    text-align: start;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.about-me h2 {
+    color: antiquewhite;
+    text-align: start;
+    font-weight: 100;
+    font-size: xxx-large;
+    padding-bottom: 20px;
+}
+
+.about-me p {
+    padding-bottom: 20px;
+    color: antiquewhite;
+    text-align: start;
+
+}
