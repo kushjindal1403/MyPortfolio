@@ -6,7 +6,6 @@ const Mobile = () => {
   return (
     <div>
       <Main />
-
       <SocialIcons />
       <SpeedDialComponent />
     </div>

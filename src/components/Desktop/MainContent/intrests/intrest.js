@@ -45,7 +45,7 @@ const Interest = () => {
     <div className="projects-div">
       <h3
         id="Interests"
-        className="pt-5 text-white text-left text-base font-semibold"
+        className="pt-5 pb-5 text-white text-left text-base font-semibold"
       >
         Interest
       </h3>

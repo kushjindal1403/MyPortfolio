@@ -73,7 +73,7 @@ const Projects = () => {
     <div className="projects-div">
       <h3
         id="Projects"
-        className="pt-5 text-white text-left text-base font-semibold"
+        className="pt-5 pb-5 text-white text-left text-base font-semibold"
       >
         Projects
       </h3>

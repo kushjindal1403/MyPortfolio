@@ -69,7 +69,7 @@ const Certifications = () => {
       <hr className="my-10" />
       <h3
         id="Certification"
-        className="pt-5 text-white text-left text-base font-semibold"
+        className="pt-5 pb-5 text-white text-left text-base font-semibold"
       >
         Certifications
       </h3>

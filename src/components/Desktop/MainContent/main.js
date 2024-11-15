@@ -21,7 +21,7 @@ const Main = () => {
         <Certifications />
         <ContactForm />
       </div>
-      <div className="text-white pb-5 flex justify-center space-x-5">
+      <div className="hidden lg:block text-white pb-5 lg:flex justify-center space-x-5">
         <p>
           Mail Me{" "}
           <a href="Mailto:Kushjindal1403@outlook.com" className="underline">

@@ -18,7 +18,7 @@ const Experience = () => {
     <div className="projects-div">
       <h3
         id="Experience"
-        className="pt-5 text-white text-left text-base font-semibold"
+        className="pt-5 pb-5 text-white text-left text-base font-semibold"
       >
         Experience
       </h3>
@@ -31,7 +31,11 @@ const Experience = () => {
               <TimelineIcon className="p-2">
                 <BriefcaseIcon className="h-8 w-8" />
               </TimelineIcon>
-              <Typography variant="h5" color="lime" className="text-start text-[16px] md:text-lg g:text-xl">
+              <Typography
+                variant="h5"
+                color="lime"
+                className="text-start text-[16px] md:text-lg g:text-xl"
+              >
                 Software Engineer, Photon Interactive (Jan 2024 - Present)
               </Typography>
             </TimelineHeader>
@@ -57,7 +61,11 @@ const Experience = () => {
               <TimelineIcon className="p-2">
                 <BuildingOffice2Icon className="h-8 w-8" />
               </TimelineIcon>
-              <Typography variant="h5" color="lime" className="text-start text-[16px] md:text-lg g:text-xl">
+              <Typography
+                variant="h5"
+                color="lime"
+                className="text-start text-[16px] md:text-lg g:text-xl"
+              >
                 Frontend Software Developer, LeavesTech Private Limited (Oct
                 2022 - Dec 2023)
               </Typography>
@@ -83,7 +91,11 @@ const Experience = () => {
               <TimelineIcon className="p-2">
                 <BuildingOfficeIcon className="h-8 w-8" />
               </TimelineIcon>
-              <Typography variant="h5" color="lime" className="text-start text-[16px] md:text-lg g:text-xl">
+              <Typography
+                variant="h5"
+                color="lime"
+                className="text-start text-[16px] md:text-lg g:text-xl"
+              >
                 Full Stack Web Developer, DigiAdd Technologies (Sep 2021 - Oct
                 2021)
               </Typography>

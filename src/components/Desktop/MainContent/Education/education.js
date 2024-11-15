@@ -17,7 +17,7 @@ const Education = () => {
     <div className="projects-div">
       <h3
         id="Education"
-        className="pt-5 text-white text-left text-base font-semibold"
+        className="pt-5 pb-5 text-white text-left text-base font-semibold"
       >
         Education
       </h3>
