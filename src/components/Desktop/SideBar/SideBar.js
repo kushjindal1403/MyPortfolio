@@ -44,7 +44,7 @@ const Sidebar = () => {
   ];
 
   return (
-    <div className="sticky top-0 rounded-3xl overflow-hidden z-10 text-white bg-gray-500 bg-opacity-10 items-center align-middle hidden lg:block h-screen max-h-[900px]">
+    <div className="sticky top-0 rounded-3xl overflow-hidden z-10 text-white bg-gray-500 bg-opacity-10 items-center align-middle hidden lg:block h-screen min-h-[850px] max-h-[900px]">
       <h1 className="text-aliceblue italic !mt-10 text-3xl font-medium">
         Kush Jindal
       </h1>
