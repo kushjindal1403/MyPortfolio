@@ -19,7 +19,7 @@ const Carousel = ({ autoPlayInterval = 8000 }) => {
       title: "Oh! You need my Resume? Sure.",
       description: "Download My CV",
       buttonLink:
-        "https://drive.google.com/file/d/166ZyPpKNYMyU8IAAV14BBytQIjAdd2sp/view?usp=sharing",
+        "https://drive.google.com/file/d/1XCLYjqxP0z6AIxFchBYVvFDeC-ic7gXq/view?usp=sharing",
       heading: "I’m a Software Engineer and designer..",
     },
     {
@@ -42,7 +42,7 @@ const Carousel = ({ autoPlayInterval = 8000 }) => {
       const interval = setInterval(() => {
         setDisplayedText((prev) => prev + text[index]);
         index++;
-        if (index === text.length -1 ) clearInterval(interval);
+        if (index === text.length - 1) clearInterval(interval);
       }, speed);
 
       return () => clearInterval(interval);
@@ -50,7 +50,6 @@ const Carousel = ({ autoPlayInterval = 8000 }) => {
 
     return displayedText;
   };
-
 
   useEffect(() => {
     const interval = setInterval(() => {
