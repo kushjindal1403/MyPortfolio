@@ -36,7 +36,7 @@ const Experience = () => {
                 color="lime"
                 className="text-start text-[16px] md:text-lg g:text-xl"
               >
-                Software Engineer, Photon Interactive (Jan 2024 - Present)
+                Software Engineer, Photon Interactive (Jan 2024 - Sept 2024)
               </Typography>
             </TimelineHeader>
             <TimelineBody className="pb-8">
