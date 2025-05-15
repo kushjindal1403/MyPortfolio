@@ -34,7 +34,7 @@ const Carousel = ({ autoPlayInterval = 8000 }) => {
   // Typing Effect Hook
   const useTypingEffect = (text, speed = 200) => {
     const [displayedText, setDisplayedText] = useState("");
-    console.log("display", displayedText);
+    
 
     useEffect(() => {
       setDisplayedText(""); // Reset displayedText on new text
